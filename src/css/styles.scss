@@ -1,0 +1,30 @@
+// ----- Styles ----- //
+
+// ----- Reset and Base Files ----- //
+
+@import "base/base";
+@import "base/reset";
+
+// ----- Layouts ----- //
+
+@import "layouts/header";
+@import "layouts/footer";
+
+// ----- Page Specific Overrides ----- //
+
+@import "pages/contact";
+@import "pages/homepage";
+
+// ----- Themes ----- //
+
+@import "themes/primary";
+
+// ----- Utilities and Variables ----- //
+
+@import "utils/mixins/color";
+@import "utils/functions";
+@import "utils/variables";
+
+// ----- Vendors ----- //
+
+@import "vendors/vendors"
