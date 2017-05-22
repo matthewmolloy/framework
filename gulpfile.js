@@ -4,7 +4,6 @@
 
 var browserSync = require('browser-sync');
 var gulp        = require('gulp');
-var clean       = require('gulp-clean');
 var minifycss   = require('gulp-minify-css');
 var plumber     = require('gulp-plumber');
 var rename      = require('gulp-rename');
@@ -88,7 +87,7 @@ gulp.task('fonts', function(){
 // Images Pipe //
 
 gulp.task('images', function(){
-  gulp.src('src/**/*.{png,ico,svg}')
+  gulp.src('src/**/*.{png,ico,svg,jpg,jpeg,gif,tiff,raw}')
   .pipe(gulp.dest('./dist/'))
 });
 
