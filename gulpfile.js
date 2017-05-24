@@ -80,7 +80,7 @@ gulp.task('styles', function(){
 // Fonts Pipe //
 
 gulp.task('fonts', function(){
-  gulp.src('src/**/*.{ttf,woff,woff2,eof,svg}')
+  gulp.src('src/**/*.{ttf,woff,woff2,eof,svg,txt}')
   .pipe(gulp.dest('./dist/'))
 });
 
