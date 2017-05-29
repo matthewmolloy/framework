@@ -7,21 +7,27 @@
 
 // ----- Layouts ----- //
 
-@import "layouts/header";
+@import "layouts/body";
 @import "layouts/footer";
+@import "layouts/header";
+@import "layouts/sidebar";
 
 // ----- Page Specific Overrides ----- //
 
+@import "pages/about";
 @import "pages/contact";
+@import "pages/content";
 @import "pages/homepage";
 
 // ----- Themes ----- //
 
 @import "themes/primary";
+@import "themes/secondary";
 
 // ----- Utilities and Variables ----- //
 
 @import "utils/mixins/color";
+@import "utils/mixins/fonts";
 @import "utils/functions";
 @import "utils/variables";
 
