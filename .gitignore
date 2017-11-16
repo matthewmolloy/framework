@@ -28,5 +28,6 @@ desktop.ini
 # Dependency directories
 node_modules
 
-# Build folder
+# Dist & Build folder
 /dist
+/build
