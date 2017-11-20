@@ -45,7 +45,7 @@ $ gulp
 
 Running gulp will compile the contents of the src folder, and copy them to the dist folder.
 
-It will also launch **BrowserSync**, which will open a build of your project **(localhost:3000)** and watch for any changes. If a change is made, the project will automatically recompile and your browser page will refresh.
+It will also launch **BrowserSync**, which will open a build of your project **(localhost:3000)** and watch for any changes. If a change is made, the project will automatically recompile and your browser page will refresh. You can also open **(localhost:3001)** in your browser at this stage to view the Browsersync user interface.
 
 ~~~
 $ gulp build
@@ -60,3 +60,24 @@ Running gulp build will compile the contents of the **src** folder, minifying an
 * [Gulp](http://gulpjs.com/) - Automation toolkit.
 * [NPM](https://www.npmjs.com/) - Package manager.
 * [SASS](http://sass-lang.com/) - CSS extension language.
+
+
+## Version Details
+
+#### v1.0.3
+
+* Gulp build seperation for production
+* Compress as .zip functionality added
+* Command line feedback & error reporting progression
+* Detailed gulpfile commenting added
+
+#### v1.0.2
+
+* Work space environment updated
+* Default folders and stylesheets added
+
+#### v1.0.1
+
+* Basic gulp & npm environment build
+* Browsersync implemented
+* SASS and JavaScript support added
